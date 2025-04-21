@@ -1,5 +1,5 @@
 'use client';
-import { useSession } from 'next-auth/react';
+import { useSession, signIn } from 'next-auth/react';
 import { redirect } from 'next/navigation';
 import StockAnalyzer from './components/StockAnalyzer';
 import Link from 'next/link';
@@ -19,9 +19,12 @@ export default function Home() {
             <p className="text-gray-700 mb-2">
               Sign in to save stocks to your portfolio and track their performance over time.
             </p>
-            <Link href="/api/auth/signin" className="btn-primary">
-              Sign In
-            </Link>
+              <button
+                onClick={() => signIn('google')}
+                className="btn-primary"
+              >
+                Sign In
+              </button>
           </div>
         )}
       </div>
