@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modern Stock Analyzer & Portfolio Management
 
-## Getting Started
+A Next.js-powered stock analysis platform with AI-driven insights and portfolio management. Features real-time stock tracking, personalized recommendations, and a polished user interface.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Google Authentication**: Secure sign-in/sign-up using NextAuth.js
+- **Portfolio Management**:  
+  - Add/remove stocks from your portfolio  
+  - Track performance through interactive charts  
+  - Update holdings with transaction history
+- **AI-Powered Insights**:  
+  - Auto-generated stock summaries  
+  - Buy/sell recommendations using ML models
+- **Modern UI/UX**:  
+  - Responsive design optimized for all devices  
+  - Data visualization with interactive charts  
+  - Performance-optimized pages (ISR/SSR)
+- **API Integration**:  
+  - RESTful endpoints for stock data  
+  - Secure user-specific routes  
+  - Third-party API integrations (market data providers)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework:** Next.js 14 (App Router)
+- **Authentication:** NextAuth.js
+- **Database:** PostgreSQL + Prisma ORM
+- **Styling:** Tailwind CSS + Shadcn UI
+- **AI Integration:** OpenAI API
+- **Deployment:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
